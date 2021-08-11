@@ -1,0 +1,54 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fff;
+
+}
+.intro{
+    padding-top:200px ;
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    background: url("../images/ready2.jpg") no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .intro{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin-left: 350px;
+    text-align: center;
+}
+.content h1{
+    font-family: sans-serif;
+    color: #F9f3F4;
+    text-shadow:0px 0px 300px #000 ;
+    font-size:200% ;
+}
+.btna{
+    border-radius: 9px;
+ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : #036AB1;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: 3px solid #036AB1;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.btna:hover{
+    color: #fff;
+    border: 3px solid #fff ;
+}

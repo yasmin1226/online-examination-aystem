@@ -1,0 +1,94 @@
+
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400);
+body{
+    
+    /* background:url("../images/ready2.jpg") no-repeat center center fixed;
+    background-size: cover;  */
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    
+}
+
+.timer{
+width: 100%;
+    margin:auto;
+    text-align: center;
+    height: 50px;
+}
+
+div#test{  padding:10px 40px 40px 40px; }
+#container{
+    display: flex;
+    /*flex-wrap: nowrap;*/
+}
+.divC{
+   /* display: inline-block; */
+    width: 100%;
+    background-color: rgba(211, 211,211, 0.5);
+    margin: 3px;
+    padding: 5px;
+}
+.divC:hover{
+
+    background-color: rgba(128, 128, 128, 0.5);
+}
+button,.btn{
+
+    font-size: 18px;
+    /* margin: 5px;
+    padding: 3px; */
+    background-color:hsla(180, 86%, 23%, 1);
+    color: white;
+    width: 80px;
+    /* height: 60px; */
+    border-radius: 3px;
+}
+.btn-S-Answer{
+    width: 200px;
+}
+
+.btn-All{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+.btn-All:hover,.btn-S-Answer:hover{
+    background-color:black;
+}
+.btn-Mark{
+    float: right;
+}
+.left{
+    width: 70%;
+   
+}
+.right{
+    margin-top: 20px;
+    width: 30%;
+}
+.middle{
+    
+}
+.btn{
+    margin: 2px;
+    display: block;
+    width: 100%;
+
+}
+/* .container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+} */
+
+#mark{
+    width:70%
+}
+
+#examout,#timeOut{
+    
+    margin: auto;
+    text-align: center;
+}

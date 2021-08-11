@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registeration</title>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        	
+
+<form id="myForm"  method="post">
+    <h2>Registeration</h2>
+          
+              <label for="firstName" class="mylabel"><b>First Name </b></label>
+              <input id="fname" name="fname" type="text" required>
+
+              <label for="lastName" class="mylabel"><b>Last Name </b></label>
+              <input id="lname" name="lname" type="text" required>
+
+
+              <label for="Email" class="mylabel"><b>Email</b></label>
+              <input id="Email" name="Email" type="text" required>
+          
+          
+              <label for="password" class="mylabel"><b>Password</b></label>
+              <input id="password" name="password" type="password" required>
+              <span>Enter a password longer than 8 characters</span>
+          
+        
+              <label for="confirm_password" class="mylabel"><b>Confirm Password</b></label>
+              <input id="confirm_password" name="confirm_password" type="password" required>
+              <span>Your passwords do not match</span>
+          
+              <input type="button" value="Register" id="submit" onclick="Register()">
+         
+      </form>
+      <div id="msg">  
+        <pre></pre>
+      </div>
+      
+      <script src="js/registration.js"></script>
+    </body>
+</html>

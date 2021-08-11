@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #status{
+            width: 600px;
+            height: 250px;
+            background-color: rgb(227, 231, 237);
+        }
+        .countDown{
+            color: red;
+            margin-top: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/start.css">
+</head>
+<body>
+    <section class="intro">
+        <div class="inner">
+            <div class="content">
+                <script>
+                    function countDown(secs,elem){
+                        var element=document.getElementById(elem);
+                        element.innerHTML="<br><br><h2>please wait for </h2>"+secs+"<h4>second</h4>";
+                        if(secs<1){
+                            clearTimeout(timer);
+                            window.location.replace("exam.html")
+                         //   element.innerHTML='<br><br><h1 style="color:red;font-family:arial;">!! Test Loaded !!</h1>'
+                    
+                           // element.innerHTML+='<a class="btnc" href="exam.html">Start Test</a>';
+
+                        }
+                        secs--;
+                        var timer=setTimeout('countDown('+secs+',"'+elem+'")',1000);
+                    }
+                </script>
+                <div id="status"></div>
+                <script type="text/javascript">
+                    countDown(10,"status");
+                </script>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
